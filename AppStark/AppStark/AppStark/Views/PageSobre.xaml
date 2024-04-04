@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppStark.Views.PageSobre" Title="Créditos do Programa"
+             NavigationPage.TitleIconImageSource="logo">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FF5733" Offset="0.1" />
+                    <GradientStop Color="#FFC300" Offset="0.3" />
+                    <GradientStop Color="#C70039" Offset="0.5" />
+                    <GradientStop Color="#900C3F" Offset="0.7" />
+                    <GradientStop Color="#581845" Offset="0.9" />
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="1">
+                <StackLayout Padding="20">
+                    <Label Text="Informações do Programa" FontAttributes="Bold" FontSize="Large" />
+                    <StackLayout>
+                        <Label Text="Programa: Industria" />
+                        <Label Text="Versão: 1.0" />
+                        <Label Text="Leonardo Gomes Ferreira" />
+                        <Label Text="Data de Criação: 22/02/2024" />
+                    </StackLayout>
+
+                    <Label Text="Direitos Autorais" FontAttributes="Bold" FontSize="Large" />
+                    <StackLayout>
+                        <Label Text="Copyright © 2024 Leonardo Gomes" />
+                        <Label Text="Todos os direitos reservados." />
+                        <Label Text="Este programa é distribuído sob a licença MIT." />
+                        <Label Text="Consulte o arquivo de licença para obter detalhes." />
+                    </StackLayout>
+
+                    <Label Text="Bibliotecas de Terceiros" FontAttributes="Bold" FontSize="Large" />
+                    <Label Text="Este programa utiliza as seguintes bibliotecas de terceiros:" />
+                    <StackLayout>
+                        <Label Text="- Xamarin.Forms" />
+                        <Label Text="- Newtonsoft.Json" />
+                    </StackLayout>
+
+                    <Label Text="Agradecimentos Especiais" FontAttributes="Bold" FontSize="Large" />
+                    <Label Text="Agradecimentos especiais ao Willian Mazotte pela assistência no design de interface." />
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

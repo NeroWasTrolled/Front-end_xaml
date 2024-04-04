@@ -1,0 +1,12 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppStark.Views.PageGPSEndereco">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtEndereco" Placeholder="Endereço do funcionário" />
+            <Entry x:Name="txtBairro" Placeholder="Bairro do funcionário" />
+            <Entry x:Name="txtNumeroDacasa" Placeholder="Número da Casa" Keyboard="Numeric" TextChanged="txtNumeroDacasa_TextChanged"/>
+            <Button x:Name="btnMapa" Text="Abir Maps" CornerRadius="10" HorizontalOptions="FillAndExpand" Clicked="btnMapa_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

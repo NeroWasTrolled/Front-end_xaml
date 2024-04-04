@@ -1,0 +1,9 @@
+Host: sql.freedb.tech
+
+Port: 3306
+
+DataBase Name: freedb_IndustriasStark
+
+DataBase User: freedb_IndustriasStark
+
+Password: vz4teVwSN!c6u26

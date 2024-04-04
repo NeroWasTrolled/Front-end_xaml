@@ -1,0 +1,45 @@
+﻿<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  x:Class="AppStark.Views.PagePrincipal" IsPresented="True">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu Principal">
+            <Grid BackgroundColor="Transparent">
+                
+                <StackLayout Margin="10" VerticalOptions="FillAndExpand" CompressedLayout.IsHeadless="True">
+                    <Image Source="logo" HorizontalOptions="Center" HeightRequest="250"/>
+
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                            <Image Source="img4" HeightRequest="50" WidthRequest="50"/>
+                            <Button x:Name="btnHome" Text="Home" HorizontalOptions="FillAndExpand" CornerRadius="10" Clicked="btnHome_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                            <Image Source="img1" HeightRequest="50" WidthRequest="50"/>
+                            <Button x:Name="btnCadastrar" Text="Cadastrar Funcionários" HorizontalOptions="FillAndExpand" CornerRadius="10" Clicked="btnCadastrar_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                            <Image Source="img2" HeightRequest="50" WidthRequest="50"/>
+                            <Button x:Name="btnlocalizar" Text="Localizar Funcionários" HorizontalOptions="FillAndExpand" CornerRadius="10" Clicked="btnlocalizar_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                            <Image Source="img3" HeightRequest="50" WidthRequest="50"/>
+                            <Button x:Name="btnlocalizarCasa" Text="Localizar Endereço" HorizontalOptions="FillAndExpand" CornerRadius="10" Clicked="btnlocalizarCasa_Clicked"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout VerticalOptions="FillAndExpand"/>
+
+                    <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                        <Image Source="img5" HeightRequest="50" WidthRequest="50"/>
+                        <Button x:Name="btnsobre" Text="Sobre" HorizontalOptions="FillAndExpand" CornerRadius="10" Clicked="btnsobre_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Menu Principal">
+            <Label x:Name="testeDb" Text="Olá..."/>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

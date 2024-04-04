@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStark.Android", "AppStark\AppStark.Android\AppStark.Android.csproj", "{2D16DD22-E3C7-43AC-B632-41646F1301B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStark", "AppStark\AppStark\AppStark.csproj", "{97D18F72-BDC2-4224-B4FD-920149F27B6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D16DD22-E3C7-43AC-B632-41646F1301B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D16DD22-E3C7-43AC-B632-41646F1301B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D16DD22-E3C7-43AC-B632-41646F1301B4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2D16DD22-E3C7-43AC-B632-41646F1301B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D16DD22-E3C7-43AC-B632-41646F1301B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D16DD22-E3C7-43AC-B632-41646F1301B4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{97D18F72-BDC2-4224-B4FD-920149F27B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D18F72-BDC2-4224-B4FD-920149F27B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D18F72-BDC2-4224-B4FD-920149F27B6F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97D18F72-BDC2-4224-B4FD-920149F27B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D18F72-BDC2-4224-B4FD-920149F27B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D18F72-BDC2-4224-B4FD-920149F27B6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0252E0A-9031-40FB-8029-72013F8C3FBD}
+	EndGlobalSection
+EndGlobal
